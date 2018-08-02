@@ -1,5 +1,6 @@
 Overview:
 This a basic configuration setup for webpack. What it does is give you an dev enviroment so you can create your web projects efficiently.
+This config supports babel to transpile ESnext into es5 code and polyfil the rest.
 
 Prerequisites:
 - Have nodeJS alongside npm installed on your machine
