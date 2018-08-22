@@ -22,6 +22,6 @@ Open your command line / bash, navigate to your project folder.
 
 Now in your bash, run "npm install --save", this will install the needed node_modules defined inside of the package.json file 
 
-After the installation, run "npm install dev" if you want to generate the files in dev mode or "npm install build" if you want to generate it in production mode which minifys the files. 
+After the installation, run "npm run dev" if you want to generate the files in dev mode or "npm run build" if you want to generate it in production mode which minifys the files. 
 
 Now run "npm start" to start your project on a web server and it will successfully pull up the newly generated project in the dist folder which you can now export anywhere you want.
