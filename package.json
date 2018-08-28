@@ -1,7 +1,7 @@
 {
-  "name": "forkify",
+  "name": "empty",
   "version": "1.0.0",
-  "description": "forkify project",
+  "description": "Empty",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
