@@ -7,8 +7,8 @@
 
 				"browsers": [
 
-				"last 5 versions",
-				"ie >= 8"
+				"last 1 versions"
+				// "ie >= 8"
 
 				]
 

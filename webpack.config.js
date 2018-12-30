@@ -16,9 +16,13 @@ const imageminMozjpeg = require('imagemin-mozjpeg');
 //Auto prefixes CSS files for compatability (i.e -webkit)
 const autoprefixer = require('autoprefixer');
 
+//Analyzer tool when needed
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 
 module.exports = {
 //ENTRY POINT, where webpack starts bundling i.e dependancies
+//REMOVE POLLYFILL loader if app is not reliant on any javascript
  entry: ['babel-polyfill', './src/js/index.js'],
 
  //OUTPUT, where webpack saves the bundle
@@ -34,7 +38,11 @@ module.exports = {
 
  plugins: [
 
+	// new BundleAnalyzerPlugin({
+	// 	analyzerMode: 'none'
+	// }),
 
+	
 	new MiniCssExtractPlugin({
 		filename: "css/styles.css",
 		chunkFilename: "css/[id].css"

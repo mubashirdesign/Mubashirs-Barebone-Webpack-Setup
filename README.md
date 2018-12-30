@@ -34,3 +34,6 @@ Bundle all the files into a production ready state (will be outputted to the /di
 ```
 npm run build
 ```
+
+Future Plans:
+- Add chunks for vendors and components
