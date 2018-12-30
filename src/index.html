@@ -9,38 +9,23 @@
 </head>
 
 <body>
-<h2>Overview</h2>
-<p>This a basic configuration setup for webpack. What it does is give you an dev enviroment so you can create your web projects efficiently.</p>
 
-<h3>Prerequisites</h3>
-<li>Have nodeJS alongside npm installed on your machine</li>
-<li>A command line or bash, I use git bash on windows, <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></li>
+<h1>Instructions:</h1>
 
-<p>Copy the 3 config files into your project directory.
-    <br>
-    <li>.babelrc</li>
-    <li>package.json</li>
-    <li>webpack.config</li>
+Clone the directory (or download)
 
 <br>
-You can either use the current directory structure of the "src" folder or use your own but that would require editing the paths inside the webpack.config file.
+
+npm install to download all the node modules
+
 <br>
-If you are using the current structure just copy your index file into the index.html and remove your css stylesheet / javascript imports.
+
+npm start to boot up the web server and start working in real time
+
+
 <br>
-Place your javascript into js/index.js, do not remove the CSS import at the top or else your css will not generate in the new dist folder. 
-<br>
-Finally copy over your css into css/styles.css
-<br>
-<br>
-<br>
-Open your command line / bash, navigate to your project folder.
-<br>
-<br>
-Now in your bash, run "npm install --save", this will install the needed node_modules defined inside of the package.json file
-<br>
-After the installation, run "npm install dev" if you want to generate the files in dev mode or "npm install build" if you want to generate it in production mode which minifys the files. 
-<br>
-Now run "npm start" to start your project on a web server and it will successfully pull up the newly generated project in the dist folder which you can now export anywhere you want. 
+
+npm run build to bundle all the files and minify the css/html/js.
 
 
 </body>
