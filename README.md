@@ -35,5 +35,22 @@ Bundle all the files into a production ready state (will be outputted to the /di
 npm run build
 ```
 
+To expose your localhost to be accessible via internet. Download ngrok globally.
+```
+npm install ngrok -g
+```
+
+If your on git bash, run 
+```
+ngrok.cmd http 8080 -host-header="localhost:8080"
+```
+else 
+```
+ngrok http 8080 -host-header="localhost:8080"
+```
+
+Now go to localhost:4040 which will be the ngrok interface where you can get the URLs that will allow anyone to access your project.
+
+
 Future Plans:
 - Add chunks for vendors and components
