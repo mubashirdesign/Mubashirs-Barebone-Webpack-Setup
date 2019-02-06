@@ -30,10 +30,11 @@
     "webpack": "^4.28.3",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.14"
-  },
-  "dependencies": {
+    "webpack-dev-server": "^3.1.14",
     "babel-polyfill": "^6.26.0",
     "imagemin-webpack-plugin": "^2.4.0"
+  },
+  "dependencies": {
+   
   }
 }
