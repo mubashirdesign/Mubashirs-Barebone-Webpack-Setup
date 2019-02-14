@@ -23,7 +23,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 module.exports = {
 //ENTRY POINT, where webpack starts bundling i.e dependancies
 //REMOVE POLLYFILL loader if app is not reliant on any javascript
- entry: ['babel-polyfill', './src/js/index.js'],
+ entry: ['@babel/polyfill', './src/js/index.js'],
 
  //OUTPUT, where webpack saves the bundle
  output: {
