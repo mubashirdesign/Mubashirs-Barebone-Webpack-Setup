@@ -52,5 +52,49 @@ ngrok http 8080 -host-header="localhost:8080"
 Now go to localhost:4040 which will be the ngrok interface where you can get the URLs that will allow anyone to access your project.
 
 
+
+To make this into a react app, add these:
+
+Package.json
+DevDependancies
+```
+"@babel/preset-react": "^7.0.0"
+```
+Dependancies
+```
+"react": "^16.8.1",
+"react-dom": "^16.8.1"
+```
+
+
+.babelrc
+```
+"plugins": ["@babel/plugin-proposal-class-properties"],
+
+    "presets": [
+
+        ["@babel/preset-env", {
+
+            "targets": {
+
+                "browsers": [
+
+                "last 1 versions"
+                // "ie >= 8"
+
+                ]
+
+            }
+
+        }],
+        "@babel/preset-react"
+```
+index.js
+```
+import React from "react";
+import ReactDOM from "react-dom";
+```
+
+
 Future Plans:
 - Add chunks for vendors and components
