@@ -58,7 +58,8 @@ To make this into a react app, add these:
 Package.json
 DevDependancies
 ```
-"@babel/preset-react": "^7.0.0"
+"@babel/preset-react": "^7.0.0",
+"@babel/plugin-proposal-class-properties": "^7.3.0",
 ```
 Dependancies
 ```
