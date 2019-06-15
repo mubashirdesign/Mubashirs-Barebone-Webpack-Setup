@@ -65,6 +65,7 @@ Dependancies
 ```
 "react": "^16.8.1",
 "react-dom": "^16.8.1"
+npm install --save react react-dom redux redux-thunk react-router-dom redux-thunk
 ```
 
 
